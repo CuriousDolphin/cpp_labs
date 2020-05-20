@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/isnob/CLionProjects/lab1/DurationLogger.h
+string
+-
+chrono
+-
+
+C:/Users/isnob/CLionProjects/lab1/Message.h
+
+C:/Users/isnob/CLionProjects/lab1/MessageStore.h
+string
+-
+Message.h
+C:/Users/isnob/CLionProjects/lab1/Message.h
+optional
+-
+
+C:/Users/isnob/CLionProjects/lab1/main.cpp
+iostream
+-
+Message.h
+C:/Users/isnob/CLionProjects/lab1/Message.h
+DurationLogger.h
+C:/Users/isnob/CLionProjects/lab1/DurationLogger.h
+MessageStore.h
+C:/Users/isnob/CLionProjects/lab1/MessageStore.h
+
