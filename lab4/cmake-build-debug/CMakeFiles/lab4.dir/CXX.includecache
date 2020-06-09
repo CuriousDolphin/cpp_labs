@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/isnob/CLionProjects/cpp_labs/lab4/main.cpp
+iostream
+-
+mutex
+-
+queue
+-
+filesystem
+-
+fstream
+-
+string
+-
+condition_variable
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/DurationLogger.cpp.o CMakeFiles/lab3.dir/map_reduce.cpp.o CMakeFiles/lab3.dir/map_reduce_regex.cpp.o  -o lab3  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 

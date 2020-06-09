@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/isnob/CLionProjects/cpp_lab/es_future/main.cpp
+iostream
+-
+future
+-
+thread
+-
+thread
+-
+sstream
+-
+mutex
+-
+
