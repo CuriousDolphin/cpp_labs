@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/isnob/CLionProjects/cpp_labs/lab4/DurationLogger.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/isnob/CLionProjects/cpp_labs/lab4/DurationLogger.h">
+			<Option target="lab4"/>
+		</Unit>
 		<Unit filename="C:/Users/isnob/CLionProjects/cpp_labs/lab4/main.cpp">
 			<Option target="lab4"/>
 		</Unit>

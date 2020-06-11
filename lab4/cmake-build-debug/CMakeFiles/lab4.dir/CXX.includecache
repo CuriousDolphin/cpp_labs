@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/isnob/CLionProjects/cpp_labs/lab4/DurationLogger.h
+string
+-
+chrono
+-
+
 C:/Users/isnob/CLionProjects/cpp_labs/lab4/main.cpp
 iostream
 -
@@ -21,4 +27,16 @@ string
 -
 condition_variable
 -
+future
+-
+optional
+-
+utility
+-
+regex
+-
+sstream
+-
+DurationLogger.h
+C:/Users/isnob/CLionProjects/cpp_labs/lab4/DurationLogger.h
 

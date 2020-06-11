@@ -3,4 +3,4 @@ project(lab4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab4 main.cpp)
+add_executable(lab4 main.cpp DurationLogger.cpp DurationLogger.h)

@@ -124,6 +124,33 @@ lab4\fast:
 	$(MAKE) -f CMakeFiles\lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab4.dir\build
 .PHONY : lab4\fast
 
+DurationLogger.obj: DurationLogger.cpp.obj
+
+.PHONY : DurationLogger.obj
+
+# target to build an object file
+DurationLogger.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab4.dir\DurationLogger.cpp.obj
+.PHONY : DurationLogger.cpp.obj
+
+DurationLogger.i: DurationLogger.cpp.i
+
+.PHONY : DurationLogger.i
+
+# target to preprocess a source file
+DurationLogger.cpp.i:
+	$(MAKE) -f CMakeFiles\lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab4.dir\DurationLogger.cpp.i
+.PHONY : DurationLogger.cpp.i
+
+DurationLogger.s: DurationLogger.cpp.s
+
+.PHONY : DurationLogger.s
+
+# target to generate assembly for a file
+DurationLogger.cpp.s:
+	$(MAKE) -f CMakeFiles\lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab4.dir\DurationLogger.cpp.s
+.PHONY : DurationLogger.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... edit_cache
 	@echo ... lab4
 	@echo ... rebuild_cache
+	@echo ... DurationLogger.obj
+	@echo ... DurationLogger.i
+	@echo ... DurationLogger.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
