@@ -1,0 +1,3 @@
+C:/Users/isnob/CLionProjects/cpp_lab/barriera_ciclica/cmake-build-debug/CMakeFiles/barriera_ciclica.dir
+C:/Users/isnob/CLionProjects/cpp_lab/barriera_ciclica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/isnob/CLionProjects/cpp_lab/barriera_ciclica/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/isnob/CLionProjects/cpp_lab/barriera_ciclica/main.cpp
+iostream
+-
+iostream
+-
+mutex
+-
+condition_variable
+-
+vector
+-
+string
+-
+

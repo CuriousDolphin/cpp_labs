@@ -77,17 +77,38 @@ CMakeFiles\lab4.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab4.dir\main.cpp.s /c C:\Users\isnob\CLionProjects\cpp_labs\lab4\main.cpp
 <<
 
+CMakeFiles\lab4.dir\DurationLogger.cpp.obj: CMakeFiles\lab4.dir\flags.make
+CMakeFiles\lab4.dir\DurationLogger.cpp.obj: ..\DurationLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\isnob\CLionProjects\cpp_labs\lab4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab4.dir/DurationLogger.cpp.obj"
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab4.dir\DurationLogger.cpp.obj /FdCMakeFiles\lab4.dir\ /FS -c C:\Users\isnob\CLionProjects\cpp_labs\lab4\DurationLogger.cpp
+<<
+
+CMakeFiles\lab4.dir\DurationLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/DurationLogger.cpp.i"
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x86\cl.exe" > CMakeFiles\lab4.dir\DurationLogger.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\isnob\CLionProjects\cpp_labs\lab4\DurationLogger.cpp
+<<
+
+CMakeFiles\lab4.dir\DurationLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/DurationLogger.cpp.s"
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab4.dir\DurationLogger.cpp.s /c C:\Users\isnob\CLionProjects\cpp_labs\lab4\DurationLogger.cpp
+<<
+
 # Object files for target lab4
 lab4_OBJECTS = \
-"CMakeFiles\lab4.dir\main.cpp.obj"
+"CMakeFiles\lab4.dir\main.cpp.obj" \
+"CMakeFiles\lab4.dir\DurationLogger.cpp.obj"
 
 # External object files for target lab4
 lab4_EXTERNAL_OBJECTS =
 
 lab4.exe: CMakeFiles\lab4.dir\main.cpp.obj
+lab4.exe: CMakeFiles\lab4.dir\DurationLogger.cpp.obj
 lab4.exe: CMakeFiles\lab4.dir\build.make
 lab4.exe: CMakeFiles\lab4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\isnob\CLionProjects\cpp_labs\lab4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\isnob\CLionProjects\cpp_labs\lab4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab4.exe"
 	"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab4.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x86\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\lab4.dir\objects1.rsp @<<
  /out:lab4.exe /implib:lab4.lib /pdb:C:\Users\isnob\CLionProjects\cpp_labs\lab4\cmake-build-debug\lab4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
